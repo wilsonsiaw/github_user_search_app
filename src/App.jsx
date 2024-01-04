@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div>
-      <Search />
       <Header />
+      <Search />
     </div>
   )
 }

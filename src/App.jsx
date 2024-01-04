@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Search from './components/Search/Search'
 
 function App() {
 
   return (
     <div>
+      <Search />
     </div>
   )
 }

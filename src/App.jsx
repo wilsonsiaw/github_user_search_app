@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Search from './components/Search/Search'
 import Header from './components/Header/Header'
+import Card from './components/Card/Card'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Header />
       <Search />
+      <Card />
     </div>
   )
 }

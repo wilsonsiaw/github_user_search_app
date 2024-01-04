@@ -1,4 +1,5 @@
 import React from 'react'
+import './Header.css'
 import moon from '../../assets/moon.svg'
 
 const Header = () => {

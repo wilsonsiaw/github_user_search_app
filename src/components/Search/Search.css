@@ -1,0 +1,212 @@
+@media screen and (max-width: 767px) {
+    .formWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        gap: 20px;
+        background-color: #fefefe;
+        padding: 35px;
+        
+        border-radius: 15px;
+        margin: 0;
+        margin-top: 400px;
+        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+
+        position: relative;
+    }
+
+    .searchImg {
+        margin-left: 15px;
+        height: 20px;
+        width: 20px;
+
+        position: absolute;
+        left: -5px;
+    }
+
+    input {
+        border: none;
+        background-color: #fefefe;
+        font-size: 13px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        color: #4B6A9B;
+        height: 30px;
+        margin: 0 auto;
+        padding-right: 10px;
+        width: calc(100% - 50px);
+
+        position: absolute;
+        left: 12%;
+    }
+
+    input:focus {
+        outline: none;
+        font-size: 13px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+    }
+
+    .searchBtn {
+        width: 19%;
+        height: 46px;
+        border-radius: 10px;
+        background: #0079FF;
+        border: none;
+        color: #fefefe;
+        font-family: 'Space Mono', sans-serif;
+        font-size: 14px;
+
+        position: absolute;
+        right: 1.5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .formWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        gap: 20px;
+        background-color: #fefefe;
+        padding: 35px;
+        
+        border-radius: 15px;
+        margin: 0;
+        margin-top: 400px;
+        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+
+        position: relative;
+    }
+
+    .searchImg {
+        margin-left: 15px;
+        height: 20px;
+        width: 20px;
+
+        position: absolute;
+        left: -5px;
+    }
+
+    input {
+        border: none;
+        background-color: #fefefe;
+        font-size: 13px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        color: #4B6A9B;
+        height: 30px;
+        margin: 0 auto;
+        padding-right: 10px;
+        width: calc(100% - 90px);
+
+        position: absolute;
+        left: 8%;
+    }
+
+    input:focus {
+        outline: none;
+        font-size: 13px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+    }
+
+    .searchBtn {
+        width: 19%;
+        height: 46px;
+        border-radius: 10px;
+        background: #0079FF;
+        border: none;
+        color: #fefefe;
+        font-family: 'Space Mono', sans-serif;
+        font-size: 14px;
+
+        position: absolute;
+        right: 1.5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 20px;
+        background-color: #fefefe;
+        padding: 35px;
+        
+        border-radius: 15px;
+        margin: 0;
+        margin-top: 400px;
+        box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+
+        position: relative;
+    }
+
+    .searchImg {
+        margin-left: 15px;
+        height: 20px;
+        width: 20px;
+
+        position: absolute;
+        left: -5px;
+    }
+
+    input {
+        border: none;
+        background-color: #fefefe;
+        font-size: 16px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+        color: #4B6A9B;
+        height: 30px;
+        margin: 0 auto;
+        padding-right: 10px;
+        width: calc(100% - 90px);
+
+        position: absolute;
+        left: 8%;
+    }
+
+    input:focus {
+        outline: none;
+        font-size: 16px;
+        font-family: 'Space Mono', sans-serif;
+        font-weight: 400;
+    }
+
+    .searchBtn {
+        width: 19%;
+        height: 46px;
+        border-radius: 10px;
+        background: #0079FF;
+        border: none;
+        color: #fefefe;
+        font-family: 'Space Mono', sans-serif;
+        font-size: 16px;
+
+        position: absolute;
+        right: 1.5%;
+    }
+}

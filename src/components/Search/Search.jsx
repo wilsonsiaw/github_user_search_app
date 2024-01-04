@@ -1,13 +1,16 @@
 import React from 'react'
+import './Search.css'
 import search from '../../assets/search.svg'
 
 const Search = () => {
   return (
-    <form className='formWrapper'>
-      <img src={search} alt="A search image" />
-      <input type="search" id='search' placeholder='Search GitHub username...'/>
-      <button className='search'>Search</button>
-    </form>
+    <div className="formWrapper">
+        <form className='form'>
+            <img src={search} alt="A search image" className='searchImg'/>
+            <input type="text" id='search' placeholder='Search GitHub username...'/>
+            <button className='searchBtn'>Search</button>
+        </form>
+    </div>
   )
 }
 

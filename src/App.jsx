@@ -7,7 +7,7 @@ import Card from './components/Card/Card'
 function App() {
 
   return (
-    <div>
+    <div className='appBody'>
       <Header />
       <Search />
       <Card />

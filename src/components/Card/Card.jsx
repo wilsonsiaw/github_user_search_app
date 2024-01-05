@@ -8,23 +8,27 @@ import github from '../../assets/github.svg'
 
 const Card = () => {
   return (
-    <div>
-      <img src={oval} alt="A picture of a black cat in an oval" />
-      <h3>The Octocat</h3>
-      <h4>@octocat</h4>
-      <h4>Joined 25 Jan 2011</h4>
-      <p>
+    <div className='cardWrapper'>
+      <div className="cardTop">
+        <img src={oval} alt="A picture of a black cat in an oval" />
+        <div className="topText">
+          <h3>The Octocat</h3>
+          <h4>@octocat</h4>
+          <h4>Joined 25 Jan 2011</h4>
+        </div>
+      </div>
+      <p className='para'>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
       </p>
-      <div>
+      <div className='stats'>
         <small>Repos</small>
-        <h5>8</h5>
         <small>Followers</small>
-        <h5>3938</h5>
         <small>Following</small>
+        <h5>8</h5>
+        <h5>3938</h5>
         <h5>9</h5>
       </div>
-      <div>
+      <div className='icons'>
         <img src={pin} alt="location pin icon" />
         <p>San Francisco</p>
         <img src={link} alt="a link icon" />

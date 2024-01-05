@@ -8,7 +8,7 @@ import github from '../../assets/github.svg'
 
 const Card = () => {
   return (
-    <div>
+    <div className='cardWrapper'>
       <img src={oval} alt="A picture of a black cat in an oval" />
       <h3>The Octocat</h3>
       <h4>@octocat</h4>

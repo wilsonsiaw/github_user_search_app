@@ -100,6 +100,65 @@
         background: #fefefe;
 
     }
+
+    /* Add all dark mode styles */
+    .cardWrapper.dark-mode {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode img {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText h3 {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .cardTop.dark-mode .topText h4:nth-last-child(2) {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText h4:nth-last-child(1) {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .para.dark-mode {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .stats.dark-mode {
+        background: #141D2F;
+        color: #fff;
+    }
+
+    .stats.dark-mode small {
+        color: #fff;
+    }
+
+    .icons.dark-mode {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .icons.dark-mode p {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .icons.dark-mode img {
+        background-color: #1E2A47;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -218,6 +277,65 @@
         font-weight: 400;
         background: #fefefe;
     }
+
+    /* Add all dark mode styles */
+    .cardWrapper.dark-mode {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode img {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText h3 {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .cardTop.dark-mode .topText h4:nth-last-child(2) {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText h4:nth-last-child(1) {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .para.dark-mode {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .stats.dark-mode {
+        background: #141D2F;
+        color: #fff;
+    }
+
+    .stats.dark-mode small {
+        color: #fff;
+    }
+
+    .icons.dark-mode {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .icons.dark-mode p {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .icons.dark-mode img {
+        background-color: #1E2A47;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -314,7 +432,8 @@
 
     small {
         color:#4B6A9B;
-        font-size: 11px;
+        font-size: 13px;
+        font-weight: 400;
     }
 
     h5 {
@@ -340,6 +459,7 @@
         grid-row: -3;
         margin-right: 10px;
         background: #fefefe;
+        /* border: 1px solid red; */
     }
 
     .icons p:nth-last-of-type(2) {
@@ -353,5 +473,64 @@
         font-size: 15px;
         font-weight: 400;
         background: #fefefe;
+    }
+
+    /* Add all dark mode styles */
+    .cardWrapper.dark-mode {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode img {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText h3 {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .cardTop.dark-mode .topText h4:nth-last-child(2) {
+        background: #1E2A47;
+    }
+
+    .cardTop.dark-mode .topText h4:nth-last-child(1) {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .para.dark-mode {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .stats.dark-mode {
+        background: #141D2F;
+        color: #fff;
+    }
+
+    .stats.dark-mode small {
+        color: #fff;
+    }
+
+    .icons.dark-mode {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .icons.dark-mode p {
+        background: #1E2A47;
+        color: #fff;
+    }
+
+    .icons.dark-mode img {
+        background-color: #1E2A47;
     }
 }

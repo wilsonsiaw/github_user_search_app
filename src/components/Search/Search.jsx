@@ -9,12 +9,12 @@ const Search = () => {
   
   return (
     <div className="formWrapper">
-        <form className={`form ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
+        <div className={`form ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
             <img src={search} alt="A search image" className='searchImg'/>
             <input type="text" id='search' 
             placeholder='Search GitHub username...' className={`input ${isDarkMode ? 'dark-mode' : 'light-mode'}`}/>
             <button className='searchBtn'>Search</button>
-        </form>
+        </div>
     </div>
   )
 }

@@ -4,10 +4,10 @@
         height: 65%;
         margin: 0 auto;
         background: #fefefe;
-        margin-top: 30px;
+        margin-top: 4%;
         border-radius: 15px;
         box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
-        padding: 25px;
+        padding: 3%;
 
         font-family: 'Space Mono', sans-serif;
     }
@@ -20,6 +20,7 @@
     }
 
     .topText {
+        width: 100%;
         background: #fefefe;
         display: flex;
         flex-direction: column;
@@ -31,6 +32,7 @@
         width: 70px;
         height: 70px;
         background: #fefefe;
+        border-radius: 50%;
     }
 
     .topText h3 {
@@ -55,7 +57,7 @@
     }
 
     .para {
-        margin-top: 30px;
+        margin-top: 2%;
         color: #4B6A9B;
         font-size: 13px;
         font-weight: 400;
@@ -66,7 +68,7 @@
     .stats {
         border-radius: 10px;
         background: #f6f8ff;
-        margin-top: 20px;
+        margin-top: 4%;
         padding: 18px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -85,7 +87,7 @@
     }
 
     .icons {
-        margin-top: 30px;
+        margin-top: 8%;
         display: grid;
         grid-template-columns: 30px 200px;
         gap: 15px;
@@ -164,14 +166,12 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cardWrapper {
         width: 80%;
-        height: 58%;
         margin: 0 auto;
         background: #fefefe;
         margin-top: 30px;
         border-radius: 15px;
         box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
-        padding: 25px;
-
+        padding: 2%;
         font-family: 'Space Mono', sans-serif;
     }
 
@@ -183,6 +183,7 @@
     }
 
     .topText {
+        margin-left: 4%;
         background: #fefefe;
         display: flex;
         flex-direction: column;
@@ -195,6 +196,7 @@
         width: 117px;
         height: 117px;
         background: #fefefe;
+        border-radius: 50%;
     }
 
     .topText h3 {
@@ -341,19 +343,18 @@
 @media screen and (min-width: 1024px) {
     .cardWrapper {
         width: 730px;
-        height: 60%;
+        height: 69%;
         margin: 0 auto;
         background: #fefefe;
         margin-top: 30px;
         border-radius: 15px;
         box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
-        padding: 25px;
-
+        padding: 2%;
         font-family: 'Space Mono', sans-serif;
     }
 
     .cardTop {
-        margin-top: 15px;
+        margin-top: -1.2%;
         display: flex;
         gap: 10px;
         background: #fefefe;
@@ -373,6 +374,7 @@
         width: 117px;
         height: 117px;
         background: #fefefe;
+        border-radius: 50%;
     }
 
     .topText h3 {
@@ -381,6 +383,7 @@
         background: #fefefe;
         margin-left: 10%;
         width: 100%;
+        white-space: nowrap;
     }
 
     .topText h4:nth-last-child(2) {
@@ -389,7 +392,7 @@
         color: #0079FF;
         font-weight: 400;
         background: #fefefe;
-        margin-left: 10%;
+        margin-left: 9.5%;
         grid-column: 1;
     }
 
@@ -405,7 +408,7 @@
     }
 
     .para {
-        margin-top: -10px;
+        margin-top: -5%;
         color: #4B6A9B;
         font-size: 15px;
         font-weight: 400;
@@ -419,14 +422,15 @@
     .stats {
         border-radius: 10px;
         background: #f6f8ff;
-        margin-top: 20px;
-        padding: 18px;
+        margin-top: 50px;
+        padding: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         place-items: center;
 
         width: 75%;
+        /* height: 15%; */
         margin-left: 22%;
     }
 
@@ -459,7 +463,6 @@
         grid-row: -3;
         margin-right: 10px;
         background: #fefefe;
-        /* border: 1px solid red; */
     }
 
     .icons p:nth-last-of-type(2) {

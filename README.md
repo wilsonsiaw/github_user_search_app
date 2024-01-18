@@ -43,9 +43,11 @@ The project tested my skills in being able to accomplish these objectives.
 ### Contact
 
 ![Gmail badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white): 
+
 wilsonsiawse@gmail.com
 
 ![LinkedIn badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white): 
+
 Wilson Siaw
 
 

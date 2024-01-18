@@ -7,6 +7,8 @@
 In this project, I built an application using React. The application fetches data from the [Github API](https://api.github.com/users/). This project was part of my training in 
 Azubi Africa Frontend Development program.
 
+The full implementation of the project can be found [here](https://github-user-search-app-ten-pearl.vercel.app/)
+
 ### Technologies Used
 
 ![React badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)

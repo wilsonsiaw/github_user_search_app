@@ -30,7 +30,6 @@ function App() {
     });
     // handle the data if request is successful
     const data = await response.data;
-    console.log(data);
     setLoading(false);
     setGithubUser(data);
     // handle the error if response fails

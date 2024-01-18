@@ -33,13 +33,20 @@ The application also incorporates a dark theme that users can switch to by click
 
 ### What I learned during the project
 
-The main objectives of this project were to learn how to build a React application that is broken down into components and to also learn how to connect to an API. I have met these objectives.
+The main objectives of this project were to:
+
+1. Learn how to build a React application that is broken down into components 
+2. Connect to an API. 
+
+The project tested my skills in being able to accomplish these objectives.
 
 ### Contact
 
-![Gmail badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white): wilsonsiawse@gmail.com
+![Gmail badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white): 
+wilsonsiawse@gmail.com
 
-![LinkedIn badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white): Wilson Siaw
+![LinkedIn badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white): 
+Wilson Siaw
 
 
 
